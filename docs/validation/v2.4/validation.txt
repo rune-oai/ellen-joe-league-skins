@@ -1,0 +1,355 @@
+fantome entries: ['META/info.json', 'META/image.png', 'WAD/talon.wad.client']
+  PASS  zip CRCs
+  PASS  fantome layout META/info.json + META/image.png + WAD/talon.wad.client
+info.json: {'Name': 'Ellen Joe • Talon — V2.4', 'Author': 'User-provided Ellen assets', 'Version': '2.4.0', 'Description': 'Ellen Joe on the upright Talon rig (Wild Rift Talon skin12 animations). V2.4: skeleton re-proportioned to Ellen, scissors held in the right hand, animated tail, every animation at the original key rate, bent-elbow sprint homeguard, low lateral tail sway without flutter, compact melee Q, E wall-vault repaired, recall choreography and particle effects of the Ellen Joe Samira skin, no crouch-stance leftovers, hand-on-hip idle. Built on "aemeth talon" by ceerel (rig and animations) and "ellen joe samira" by disco (Ellen model, recall).', 'Champion': 'Talon', 'Map': 'SummonersRift', 'Chroma': False, 'SFX': False}
+  PASS  info.json has Name/Author/Version/Description
+  PASS  image.png is a PNG
+
+WAD v3.3: 338 chunks, 12068368 bytes
+  PASS  WAD table of contents sorted by hash, no duplicate entries
+  PASS  all chunk data inside the file
+  PASS  skin bin present at data/characters/talon/skins/skin0.bin
+  PASS  bin parses and re-serialises byte-identically
+bin entries by class: {'AnimationGraphData': 1, 'ContextualActionData': 1, 'ResourceResolver': 1, 'SkinCharacterDataProperties': 1, 'StaticMaterialDef': 1, 'VfxSystemDefinitionData': 85} links: ['DATA/Characters/Talon/Talon.bin']
+asset paths in bin: 338
+  PASS  every referenced asset is shipped (only the inherited VO _audio.bnk entry is absent, as in both source mods): ['assets/ice/wild/bum/sounds/wwise2016/vo/en_us/characters/talon/skins/base/talon_base_vo_audio.bnk']
+  PASS  no unreferenced chunks in the WAD (0)
+  PASS  file signatures match extensions for all 337 shipped assets []
+  PASS  all .tex files have a known format and enough pixel data []
+  PASS  skeleton / simpleSkin / texture of skinMeshProperties are in the WAD
+
+SKL: 120 joints, 120 influences, file 14441 bytes, size field 14441, magic c34ffd22
+  PASS  SKL header size field and magic
+  PASS  joint names and name hashes unique
+  PASS  parent indices valid
+  PASS  no cycles in the hierarchy
+  PASS  inverse-bind matrices are the inverse of the bind pose (max error 9.51e-06)
+  PASS  bind rotations are pure rotations, unit scale (det 1.00000..1.00000)
+  PASS  first 104 joints = the base rig joints, same order and parents
+  PASS  plus tail1..tail16 appended
+SKL header fields: (14441, 587026371, 0, 0, 120, 120, 64, 12064, 13024, 0, 0, 13264, -1)
+
+SKN: 27623 verts, 29955 tris, submeshes [('sword', 4246, 4263), ('Ellen_Body_Map1_D', 7700, 8657), ('Ellen_Body_Map2_D', 6965, 8027), ('lambert15', 549, 778), ('lambert16', 5064, 4354), ('Ellen_Face_D', 2720, 3384), ('screen', 98, 90), ('neck', 281, 402)]
+  PASS  vertex data finite
+  PASS  vertex weights non-negative and sum to 1 (max dev 4.5e-08)
+  PASS  influence indices within the skeleton influence list (119 < 120)
+  PASS  triangle indices in range
+  PASS  each submesh only indexes its own vertex range
+  PASS  normals unit length
+joints carrying weight: 47 ['chest', 'head', 'hip', 'l_foot', 'l_forearm', 'l_hand', 'l_index', 'l_index_b', 'l_knee', 'l_middle', 'l_middle_b', 'l_pinky', 'l_pinky_b', 'l_ring', 'l_ring_b', 'l_shoulder', 'l_thigh', 'l_thumb', 'l_thumb_b', 'l_uparm', 'neck', 'r_foot', 'r_forearm', 'r_hand', 'r_knee', 'r_shoulder', 'r_thigh', 'r_uparm', 'root', 'spine', 'tail1', 'tail10', 'tail11', 'tail12', 'tail13', 'tail14', 'tail15', 'tail16', 'tail2', 'tail3', 'tail4', 'tail5', 'tail6', 'tail7', 'tail8', 'tail9', 'weapon']
+  PASS  vertex count fits 16-bit indices
+  PASS  skinning the bind pose reproduces the mesh (max dev 1.1e-05)
+mesh bbox [ -48.     0.  -126.5] .. [126.4 164.7  40.7]
+  PASS  materialOverride submeshes exist in the SKN ['Ellen_Face_D', 'sword']
+  PASS  skin Material link resolves to StaticMaterialDef 'Ellen_Talon_toon'
+  PASS  no rigPoseModifierData: the tail is keyed in every clip (nothing in the engine can bend it into the scissors)
+  PASS  tail joints form one chain hanging off hip
+  PASS  health-bar bone exists
+  PASS  every animation-event bone / submesh exists on the model []
+
+animation graph Characters/Talon/Animations/Skin12: 29 clips
+  PASS  source key count/rate preserved: Attack1
+  PASS  source key count/rate preserved: Attack2
+  PASS  source key count/rate preserved: Crit
+  PASS  source key count/rate preserved: Dance
+  PASS  source key count/rate preserved: Death
+  PASS  source key count/rate preserved: Idle1
+  PASS  source key count/rate preserved: Idle2
+  PASS  source key count/rate preserved: Idle3
+  PASS  source key count/rate preserved: Idle4
+  PASS  source key count/rate preserved: Joke
+  PASS  source key count/rate preserved: Laugh
+  PASS  source key count/rate preserved: Run_Normal
+  PASS  source key count/rate preserved: Spell1
+  PASS  source key count/rate preserved: Spell2
+  PASS  source key count/rate preserved: Spell3
+  PASS  source key count/rate preserved: Spell4
+  PASS  source key count/rate preserved: Taunt
+  PASS  source key count/rate preserved: Channel
+  PASS  source key count/rate preserved: Channel_Wndup
+  PASS  source key count/rate preserved: Spell3_Long
+  PASS  source key count/rate preserved: 0x86b44e3c
+  PASS  source key count/rate preserved: Spell3_Medium
+  PASS  source key count/rate preserved: Spell3_Medium_toRun
+  PASS  source key count/rate preserved: Spell1_Leap
+  PASS  source key count/rate preserved: Run_Homeguard
+  PASS  source key count/rate preserved: Run_Homeguard_IN
+  PASS  source key count/rate preserved: 0x9260a8e8
+   ok  Attack1              talon_skin12_attack1.anm                 v4   42 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  94.9 deg, |T|max  217.7
+   ok  Attack2              talon_skin12_attack2.anm                 v4   41 fr @ 29.0 fps 120 tracks, max per-frame joint rotation 106.1 deg, |T|max  227.3
+   ok  Crit                 talon_skin12_crit.anm                    v4   41 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  87.5 deg, |T|max  227.3
+   ok  Dance                talon_skin12_dance.anm                   v4  270 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  50.5 deg, |T|max  227.3
+   ok  Death                talon_skin12_death.anm                   v4   39 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  89.1 deg, |T|max  250.5
+   ok  Idle1                talon_skin12_idle1.anm                   v4   51 fr @ 29.0 fps 120 tracks, max per-frame joint rotation   3.0 deg, |T|max  217.7
+   ok  Idle2                talon_skin12_idle1.anm                   v4   51 fr @ 29.0 fps 120 tracks, max per-frame joint rotation   3.0 deg, |T|max  217.7
+   ok  Idle3                talon_skin12_idle1.anm                   v4   51 fr @ 29.0 fps 120 tracks, max per-frame joint rotation   3.0 deg, |T|max  217.7
+   ok  Idle4                talon_skin12_idle1.anm                   v4   51 fr @ 29.0 fps 120 tracks, max per-frame joint rotation   3.0 deg, |T|max  217.7
+   ok  Joke                 talon_skin12_joke.anm                    v4  171 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  69.0 deg, |T|max  227.3
+   ok  Laugh                talon_skin12_laugh.anm                   v4  146 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  34.9 deg, |T|max  227.3
+   ok  Run_Normal           talon_skin12_run.anm                     v4   29 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  43.7 deg, |T|max  227.3
+   ok  Spell1               talon_skin12_spell1.anm                  v4   42 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  39.0 deg, |T|max  217.7
+   ok  Spell2               talon_skin12_spell2.anm                  v4   31 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  90.7 deg, |T|max  227.3
+   ok  Spell3               talon_skin12_spell3_jump.anm             v4   24 fr @ 29.0 fps 120 tracks, max per-frame joint rotation 172.5 deg, |T|max  398.4
+   ok  Spell4               talon_skin12_spell4.anm                  v4   31 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  86.7 deg, |T|max  227.3
+   ok  Taunt                talon_skin12_taunt.anm                   v4  143 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  44.2 deg, |T|max  227.3
+   ok  Channel              talon_skin12_channel.anm                 v4   31 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  28.3 deg, |T|max  227.3
+   ok  Channel_Wndup        talon_skin12_channel_windup.anm          v4   31 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  35.8 deg, |T|max  227.3
+   ok  Spell3_Long          talon_spell3_long.anm                    v4   30 fr @ 30.0 fps 120 tracks, max per-frame joint rotation 100.7 deg, |T|max  524.6
+   ok  0x86b44e3c           talon_skin12_spell3_longtorun.anm        v4   22 fr @ 29.0 fps 120 tracks, max per-frame joint rotation 178.9 deg, |T|max  227.3
+   ok  Spell3_Medium        talon_spell3_medium.anm                  v4   28 fr @ 30.0 fps 120 tracks, max per-frame joint rotation  97.1 deg, |T|max  410.8
+   ok  Spell3_Medium_toRun  talon_skin12_spell3_medium_torun.anm     v4   11 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  65.5 deg, |T|max  227.3
+   ok  Spell1_Leap          talon_skin12_spell1_leap.anm             v4   26 fr @ 29.0 fps 120 tracks, max per-frame joint rotation 156.1 deg, |T|max  227.3
+   ok  Run_Homeguard        talon_skin12_homeguard.anm               v4   29 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  43.7 deg, |T|max  227.3
+   ok  Run_Homeguard_IN     talon_skin12_homeguard_in.anm            v4   29 fr @ 29.0 fps 120 tracks, max per-frame joint rotation  43.7 deg, |T|max  227.3
+   ok  0x9260a8e8           talon_recall.anm                         v4  260 fr @ 29.0 fps 120 tracks, max per-frame joint rotation 146.3 deg, |T|max  285.0
+motion checks (every stored frame + 15 interpolated poses between each pair; 1061 sole, 4246 scissors, 537 tail vertices, 88 grip contact points):
+   ok  Attack1              lowest point over the interpolated motion: soles  -1.97  scissors   1.27  tail   1.86 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets   4.61 | lowest body vertex  -0.90
+   ok  Attack2              lowest point over the interpolated motion: soles  -1.12  scissors   0.40  tail  28.62 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets   0.89 | lowest body vertex  -0.90
+   ok  Crit                 lowest point over the interpolated motion: soles  -1.33  scissors   1.89  tail  28.60 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets   0.54 | lowest body vertex  -0.90
+   ok  Dance                lowest point over the interpolated motion: soles  -1.51  scissors   0.56  tail  32.09 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets   3.77 | lowest body vertex  -0.90
+   ok  Death                lowest point over the interpolated motion: soles  -0.90  scissors   0.67  tail   1.97 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets  41.00 (airborne clip) | lowest body vertex -14.98
+   ok  Idle1                lowest point over the interpolated motion: soles  -0.54  scissors   0.90  tail  33.66 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets  -0.47 | lowest body vertex  -0.54
+   ok  Idle2                lowest point over the interpolated motion: soles  -0.54  scissors   0.90  tail  33.66 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets  -0.47 | lowest body vertex  -0.54
+   ok  Idle3                lowest point over the interpolated motion: soles  -0.54  scissors   0.90  tail  33.66 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets  -0.47 | lowest body vertex  -0.54
+   ok  Idle4                lowest point over the interpolated motion: soles  -0.54  scissors   0.90  tail  33.66 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets  -0.47 | lowest body vertex  -0.54
+   ok  Joke                 lowest point over the interpolated motion: soles  -1.21  scissors   0.94  tail  35.98 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets   1.13 | lowest body vertex  -0.90
+   ok  Laugh                lowest point over the interpolated motion: soles  -1.05  scissors   0.81  tail  33.14 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets   0.81 | lowest body vertex  -0.90
+   ok  Run_Normal           lowest point over the interpolated motion: soles  -0.91  scissors  61.24  tail  70.69 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets  20.69 (airborne clip) | lowest body vertex  -0.50
+   ok  Spell1               lowest point over the interpolated motion: soles  -0.90  scissors   0.99  tail  20.20 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets   3.50 | lowest body vertex  -0.90
+   ok  Spell2               lowest point over the interpolated motion: soles  -1.78  scissors   0.86  tail  36.38 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets   0.92 | lowest body vertex  -0.90
+   ok  Spell3               lowest point over the interpolated motion: soles  -0.90  scissors   1.40  tail  47.19 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets 249.95 (airborne clip) | lowest body vertex  -0.90
+   ok  Spell4               lowest point over the interpolated motion: soles  -1.47  scissors   1.70  tail  26.83 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets 122.73 (airborne clip) | lowest body vertex  -0.90
+   ok  Taunt                lowest point over the interpolated motion: soles  -1.04  scissors   0.45  tail  36.35 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets   0.41 | lowest body vertex  -0.90
+   ok  Channel              lowest point over the interpolated motion: soles  -0.50  scissors   4.01  tail  32.91 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets  -0.50 | lowest body vertex  -0.50
+   ok  Channel_Wndup        lowest point over the interpolated motion: soles  -0.50  scissors 119.27  tail  32.91 | grip gap max 0.59 | scale deviation 0.0000 | highest the lower sole gets  -0.50 | lowest body vertex  -0.50
+   ok  Spell3_Long          lowest point over the interpolated motion: soles  -1.60  scissors   1.50  tail  17.04 | grip gap max 0.59 | scale deviation 0.0000 | highest the lower sole gets 467.19 (airborne clip) | lowest body vertex  -0.90
+   ok  0x86b44e3c           lowest point over the interpolated motion: soles  -1.94  scissors   0.54  tail   5.63 | grip gap max 0.79 | scale deviation 0.0000 | highest the lower sole gets 100.35 (airborne clip) | lowest body vertex  -8.19
+   ok  Spell3_Medium        lowest point over the interpolated motion: soles  -1.59  scissors   1.01  tail  15.32 | grip gap max 0.59 | scale deviation 0.0000 | highest the lower sole gets 392.11 (airborne clip) | lowest body vertex  -0.90
+   ok  Spell3_Medium_toRun  lowest point over the interpolated motion: soles  -1.54  scissors   0.36  tail   8.96 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets   3.73 | lowest body vertex  -4.21
+   ok  Spell1_Leap          lowest point over the interpolated motion: soles  -1.60  scissors   1.56  tail  27.63 | grip gap max 0.79 | scale deviation 0.0000 | highest the lower sole gets  23.88 (airborne clip) | lowest body vertex  -0.90
+   ok  Run_Homeguard        lowest point over the interpolated motion: soles  -0.91  scissors  79.93  tail  70.61 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets  20.69 (airborne clip) | lowest body vertex  -0.50
+   ok  Run_Homeguard_IN     lowest point over the interpolated motion: soles  -1.02  scissors  71.79  tail  70.65 | grip gap max 0.00 | scale deviation 0.0000 | highest the lower sole gets  20.33 (airborne clip) | lowest body vertex  -0.50
+   ok  0x9260a8e8           lowest point over the interpolated motion: soles  -1.98  scissors -10.89  tail   1.97 | grip gap max 212.38 | scale deviation 0.0000 | highest the lower sole gets 285.00 (airborne clip) | lowest body vertex  -1.82
+   recall: scissors out of the fist on keys 3.2-248.1 of 259; under the ground at the stored keys 156-237 (one unbroken stretch), deepest -10.89 (limit -12.0); fist closed on keys 0-3 and on the last key: True
+           planted blade, keys 162-236: moves at most 0.69 u from one key to the next (limit 3.0); informational - deviation from that between two keys (engine interpolation under the moving forearm): mean 1.29, 90% 3.63, max 14.06 u at key 216; 14 of 74 key intervals above 2 u
+           stowed on her back, keys 10-96: scissors vertices inside the body at most 37 (key 12), inside the tail at most 30 (key 60), of 4246 (limit 84 each); keys with any inside: body 12, tail 6 of 87
+  PASS  every clip file exists, is r3d2anmd v4, finite, unit quaternions, all tracks map to skeleton joints, no joint untracked (tail1..16 keyed), source key counts/rates checked individually (29 fps; wall vaults 30 fps)
+  PASS  scissors and tail never below the ground, soles never lower than -2.0 units, also between stored frames (recall: scissors in the ground only while planted, where they stand still from key to key, and clear of body and tail while stowed on her back - see above)
+  PASS  right fist stays closed on the scissors handle (contact points move <= 1.0 unit) in every clip, also between stored frames (recall: on its first four keys and its last one; in between the scissors leave the hand by design)
+  PASS  no joint is scaled in any clip (no limb stretch)
+  PASS  standing clips never float: outside the eleven airborne clips (Spell3, Spell3_Long, Spell3_Medium, 0x86b44e3c, Spell1_Leap, Spell4, Death, Run_Normal, Run_Homeguard, Run_Homeguard_IN, 0x9260a8e8) the lower sole is never more than 5 units above the ground, also between stored frames
+   ("lowest body vertex" is informational, stored frames only: body, limbs and clothes other than soles, scissors and tail - see the landing rolls and the death pose)
+events with a start frame (informational). Every clip is stored at the base key rate, so a start frame means the same key as in the base mod
+  (the melee Q, Spell1, was re-keyed so that its cut lands on key 7, just before its hit effect on key 8):
+   Dance                x1 ( 29.0 fps, 9.276 s)  SoundEventData     mStartFrame   2.0 -> 0.069 s at the base rate
+   Joke                 x1 ( 29.0 fps, 5.862 s)  SoundEventData     mStartFrame  30.0 -> 1.034 s at the base rate
+   Spell1               x1 ( 29.0 fps, 1.414 s)  ParticleEventData  mStartFrame   8.0 -> 0.276 s at the base rate
+   Spell3               x1 ( 29.0 fps, 0.793 s)  SoundEventData     mStartFrame  23.0 -> 0.793 s at the base rate
+   Spell3_Long          x1 ( 30.0 fps, 0.967 s)  SoundEventData     mStartFrame  27.0 -> 0.931 s at the base rate
+   Spell3_Medium        x1 ( 30.0 fps, 0.900 s)  SoundEventData     mStartFrame  23.0 -> 0.793 s at the base rate
+   Run_Homeguard        x1 ( 29.0 fps, 0.966 s)  SoundEventData     mStartFrame   1.0 -> 0.034 s at the base rate
+   Run_Homeguard_IN     x1 ( 29.0 fps, 0.966 s)  SoundEventData     mStartFrame  23.0 -> 0.793 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 232.0 -> 8.000 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame   2.9 -> 0.100 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame  17.4 -> 0.600 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame  64.8 -> 2.233 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame  86.0 -> 2.967 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 148.9 -> 5.133 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 146.0 -> 5.033 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 120.8 -> 4.167 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 144.0 -> 4.967 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 239.7 -> 8.267 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 239.7 -> 8.267 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame  21.3 -> 0.733 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 234.9 -> 8.100 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 183.7 -> 6.333 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 183.7 -> 6.333 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 154.7 -> 5.333 s at the base rate
+   0x9260a8e8           x1 ( 29.0 fps, 8.931 s)  ParticleEventData  mStartFrame 152.7 -> 5.267 s at the base rate
+looping clips, last stored pose vs first: Dance 0.04 deg / 0.000 u, Idle1 0.04 deg / 0.000 u, Run_Normal 0.04 deg / 0.000 u, Channel 0.04 deg / 0.000 u, Channel_Wndup 0.04 deg / 0.000 u, Run_Homeguard 0.04 deg / 0.000 u
+  PASS  looping clips end exactly on their first pose (seam <= 0.1 deg, 0.01 units)
+  PASS  every TimeBlendData entry carries an explicit, finite, non-negative mTime
+cuts (0 s) between chained clips: Spell3_Long -> 0x86b44e3c: mesh moves 0.00 units; Run_Homeguard_IN -> Run_Homeguard: mesh moves 0.00 units
+  PASS  clips joined by a 0 s cut continue from the exact same pose (mesh moves <= 0.5 units)
+cross-fades: 109 TimeBlendData pairs with a blend time. The incoming clip advances from its start; the outgoing clip is evaluated
+  both frozen at its exit pose and still playing (the engine's scheduling is not known). Looping clips exit at every key.
+  33 samples per blend; local T/S lerp, shortest-arc R slerp. A finite sampling of two modelled schedules, not the engine itself.
+ (1) 90 pairs with a defined exit pose - idle -> dash / attack / spell / emote, dash -> landing, landing -> run or idle, and every
+     standing or finished clip -> recall:
+   ok  0x86b44e3c           -> Run_Normal           0.10s  frozen: soles   3.51 scissors  69.84 tail  73.67 grip 0.00 | playing: soles   2.33 scissors  22.21 tail  65.61 grip 0.00
+   ok  Spell3_Medium        -> Spell3_Medium_toRun  0.10s  frozen: soles  -1.46 scissors   8.31 tail   9.81 grip 0.00 | playing: soles  -2.72 scissors  10.15 tail   9.81 grip 0.00
+   ok  Idle3                -> Spell3_Long          0.10s  frozen: soles  -0.63 scissors   1.78 tail  25.93 grip 0.00 | playing: soles  -0.62 scissors   1.84 tail  25.93 grip 0.00
+   ok  Idle3                -> Spell3_Medium        0.10s  frozen: soles  -0.63 scissors   1.20 tail  25.80 grip 0.00 | playing: soles  -0.62 scissors   1.25 tail  25.79 grip 0.00
+   ok  Idle3                -> Spell3               0.10s  frozen: soles  -0.51 scissors   1.68 tail  33.66 grip 0.00 | playing: soles  -0.50 scissors   1.73 tail  33.81 grip 0.00
+   ok  Idle2                -> Spell3_Long          0.10s  frozen: soles  -0.63 scissors   1.78 tail  25.93 grip 0.00 | playing: soles  -0.62 scissors   1.84 tail  25.93 grip 0.00
+   ok  Idle2                -> Spell3_Medium        0.10s  frozen: soles  -0.63 scissors   1.20 tail  25.80 grip 0.00 | playing: soles  -0.62 scissors   1.25 tail  25.79 grip 0.00
+   ok  Idle2                -> Spell3               0.10s  frozen: soles  -0.51 scissors   1.68 tail  33.66 grip 0.00 | playing: soles  -0.50 scissors   1.73 tail  33.81 grip 0.00
+   ok  Idle1                -> Spell3_Long          0.10s  frozen: soles  -0.67 scissors   0.90 tail  25.93 grip 0.00 | playing: soles  -0.67 scissors   0.90 tail  25.93 grip 0.00
+   ok  Idle1                -> Spell3_Medium        0.10s  frozen: soles  -0.67 scissors   0.48 tail  25.79 grip 0.00 | playing: soles  -0.67 scissors   0.50 tail  25.79 grip 0.00
+   ok  Idle1                -> Spell3               0.10s  frozen: soles  -0.54 scissors   0.90 tail  33.66 grip 0.00 | playing: soles  -0.54 scissors   0.90 tail  33.66 grip 0.00
+   ok  Idle4                -> Spell3_Long          0.10s  frozen: soles  -0.63 scissors   1.78 tail  25.93 grip 0.00 | playing: soles  -0.62 scissors   1.84 tail  25.93 grip 0.00
+   ok  Idle4                -> Spell3_Medium        0.10s  frozen: soles  -0.63 scissors   1.20 tail  25.80 grip 0.00 | playing: soles  -0.62 scissors   1.25 tail  25.79 grip 0.00
+   ok  Idle4                -> Spell3               0.10s  frozen: soles  -0.51 scissors   1.68 tail  33.66 grip 0.00 | playing: soles  -0.50 scissors   1.73 tail  33.81 grip 0.00
+   ok  Spell3_Medium_toRun  -> Run_Normal           0.10s  frozen: soles   3.51 scissors  69.84 tail  73.67 grip 0.00 | playing: soles   2.62 scissors  34.84 tail  55.53 grip 0.00
+   ok  Attack1              -> 0x9260a8e8           0.10s  frozen: soles  -0.90 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.60 scissors   1.90 tail  31.29 grip 0.00
+   ok  Attack2              -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.67 tail  32.56 grip 0.00 | playing: soles  -0.51 scissors   1.87 tail  30.01 grip 0.00
+   ok  Channel              -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.90 tail  32.91 grip 0.00 | playing: soles  -0.51 scissors   1.90 tail  32.91 grip 0.00
+   ok  Channel_Wndup        -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.90 tail  32.91 grip 0.59 | playing: soles  -0.51 scissors   1.90 tail  32.91 grip 0.59
+   ok  Crit                 -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.89 tail  32.96 grip 0.00 | playing: soles  -0.51 scissors   1.90 tail  29.99 grip 0.00
+   ok  Idle1                -> 0x9260a8e8           0.10s  frozen: soles  -0.55 scissors   0.90 tail  33.66 grip 0.00 | playing: soles  -0.55 scissors   0.90 tail  33.66 grip 0.00
+   ok  Idle2                -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.51 scissors   1.88 tail  33.66 grip 0.00
+   ok  Idle3                -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.51 scissors   1.88 tail  33.66 grip 0.00
+   ok  Idle4                -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.51 scissors   1.88 tail  33.66 grip 0.00
+   ok  Joke                 -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.60 tail  33.66 grip 0.00 | playing: soles  -0.81 scissors   1.85 tail  33.66 grip 0.00
+   ok  Laugh                -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.90 tail  33.26 grip 0.00 | playing: soles  -0.51 scissors   1.90 tail  33.63 grip 0.00
+   ok  Run_Homeguard_IN     -> 0x9260a8e8           0.10s  frozen: soles  -0.76 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.76 scissors   1.90 tail  33.66 grip 0.00
+   ok  Spell1               -> 0x9260a8e8           0.10s  frozen: soles  -0.90 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.58 scissors   1.90 tail  31.13 grip 0.00
+   ok  Spell1_Leap          -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.77 tail  33.66 grip 0.00 | playing: soles  -1.03 scissors   1.89 tail  33.66 grip 0.00
+   ok  Spell2               -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.64 tail  33.66 grip 0.00 | playing: soles  -0.83 scissors   1.87 tail  33.66 grip 0.00
+   ok  0x86b44e3c           -> 0x9260a8e8           0.10s  frozen: soles  -0.76 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.76 scissors   1.90 tail  33.66 grip 0.00
+   ok  Spell3_Medium_toRun  -> 0x9260a8e8           0.10s  frozen: soles  -0.76 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.76 scissors   1.90 tail  33.66 grip 0.00
+   ok  Spell4               -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.90 tail  32.95 grip 0.00 | playing: soles  -0.51 scissors   1.90 tail  32.81 grip 0.00
+   ok  Taunt                -> 0x9260a8e8           0.10s  frozen: soles  -0.51 scissors   1.02 tail  33.66 grip 0.00 | playing: soles  -0.89 scissors   1.82 tail  33.66 grip 0.00
+   ok  Idle1                -> Attack1              0.10s  frozen: soles  -1.19 scissors   0.90 tail  33.66 grip 0.00 | playing: soles  -1.19 scissors   0.90 tail  33.66 grip 0.00
+   ok  Idle1                -> Attack2              0.10s  frozen: soles  -1.22 scissors   0.90 tail  33.61 grip 0.00 | playing: soles  -1.22 scissors   0.90 tail  33.64 grip 0.00
+   ok  Idle1                -> Crit                 0.10s  frozen: soles  -1.55 scissors   0.90 tail  33.64 grip 0.00 | playing: soles  -1.54 scissors   0.90 tail  33.66 grip 0.00
+   ok  Idle1                -> Spell1               0.10s  frozen: soles  -0.76 scissors   0.90 tail  33.66 grip 0.00 | playing: soles  -0.76 scissors   0.90 tail  33.66 grip 0.00
+   ok  Idle1                -> Spell1_Leap          0.10s  frozen: soles  -0.66 scissors   0.90 tail  31.43 grip 0.72 | playing: soles  -0.66 scissors   0.90 tail  31.43 grip 0.72
+   ok  Idle1                -> Spell2               0.10s  frozen: soles  -1.59 scissors   0.90 tail  33.66 grip 0.00 | playing: soles  -1.59 scissors   0.90 tail  33.66 grip 0.00
+   ok  Idle1                -> Spell4               0.10s  frozen: soles  -0.79 scissors   0.90 tail  28.72 grip 0.00 | playing: soles  -0.79 scissors   0.90 tail  28.72 grip 0.00
+   ok  Idle1                -> Channel_Wndup        0.10s  frozen: soles  -0.55 scissors   0.90 tail  33.66 grip 0.59 | playing: soles  -0.54 scissors   0.90 tail  33.66 grip 0.59
+   ok  Idle1                -> Dance                0.10s  frozen: soles  -1.24 scissors   0.90 tail  33.12 grip 0.00 | playing: soles  -1.24 scissors   0.90 tail  33.12 grip 0.00
+   ok  Idle1                -> Taunt                0.10s  frozen: soles  -0.54 scissors   0.90 tail  33.66 grip 0.00 | playing: soles  -0.54 scissors   0.90 tail  33.66 grip 0.00
+   ok  Idle1                -> Joke                 0.10s  frozen: soles  -0.97 scissors   0.90 tail  33.66 grip 0.00 | playing: soles  -0.97 scissors   0.90 tail  33.66 grip 0.00
+   ok  Idle1                -> Laugh                0.10s  frozen: soles  -0.54 scissors   0.90 tail  33.48 grip 0.00 | playing: soles  -0.54 scissors   0.90 tail  33.48 grip 0.00
+   ok  Idle2                -> Attack1              0.10s  frozen: soles  -1.17 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -1.17 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle2                -> Attack2              0.10s  frozen: soles  -1.20 scissors   1.90 tail  33.61 grip 0.00 | playing: soles  -1.20 scissors   1.88 tail  33.73 grip 0.00
+   ok  Idle2                -> Crit                 0.10s  frozen: soles  -1.53 scissors   1.90 tail  33.64 grip 0.00 | playing: soles  -1.53 scissors   1.88 tail  33.77 grip 0.00
+   ok  Idle2                -> Spell1               0.10s  frozen: soles  -0.74 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.75 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle2                -> Spell1_Leap          0.10s  frozen: soles  -0.62 scissors   1.78 tail  31.43 grip 0.72 | playing: soles  -0.62 scissors   1.84 tail  31.45 grip 0.72
+   ok  Idle2                -> Spell2               0.10s  frozen: soles  -1.57 scissors   1.89 tail  33.66 grip 0.00 | playing: soles  -1.58 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle2                -> Spell4               0.10s  frozen: soles  -0.79 scissors   1.90 tail  28.79 grip 0.00 | playing: soles  -0.79 scissors   1.88 tail  28.77 grip 0.00
+   ok  Idle2                -> Channel_Wndup        0.10s  frozen: soles  -0.51 scissors   1.90 tail  33.66 grip 0.59 | playing: soles  -0.50 scissors   1.88 tail  33.75 grip 0.59
+   ok  Idle2                -> Dance                0.10s  frozen: soles  -1.23 scissors   1.87 tail  33.12 grip 0.00 | playing: soles  -1.23 scissors   1.87 tail  33.15 grip 0.00
+   ok  Idle2                -> Taunt                0.10s  frozen: soles  -0.51 scissors   1.71 tail  33.66 grip 0.00 | playing: soles  -0.50 scissors   1.78 tail  33.81 grip 0.00
+   ok  Idle2                -> Joke                 0.10s  frozen: soles  -0.96 scissors   1.89 tail  33.66 grip 0.00 | playing: soles  -0.96 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle2                -> Laugh                0.10s  frozen: soles  -0.51 scissors   1.90 tail  33.48 grip 0.00 | playing: soles  -0.50 scissors   1.88 tail  33.49 grip 0.00
+   ok  Idle3                -> Attack1              0.10s  frozen: soles  -1.17 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -1.17 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle3                -> Attack2              0.10s  frozen: soles  -1.20 scissors   1.90 tail  33.61 grip 0.00 | playing: soles  -1.20 scissors   1.88 tail  33.73 grip 0.00
+   ok  Idle3                -> Crit                 0.10s  frozen: soles  -1.53 scissors   1.90 tail  33.64 grip 0.00 | playing: soles  -1.53 scissors   1.88 tail  33.77 grip 0.00
+   ok  Idle3                -> Spell1               0.10s  frozen: soles  -0.74 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.75 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle3                -> Spell1_Leap          0.10s  frozen: soles  -0.62 scissors   1.78 tail  31.43 grip 0.72 | playing: soles  -0.62 scissors   1.84 tail  31.45 grip 0.72
+   ok  Idle3                -> Spell2               0.10s  frozen: soles  -1.57 scissors   1.89 tail  33.66 grip 0.00 | playing: soles  -1.58 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle3                -> Spell4               0.10s  frozen: soles  -0.79 scissors   1.90 tail  28.79 grip 0.00 | playing: soles  -0.79 scissors   1.88 tail  28.77 grip 0.00
+   ok  Idle3                -> Channel_Wndup        0.10s  frozen: soles  -0.51 scissors   1.90 tail  33.66 grip 0.59 | playing: soles  -0.50 scissors   1.88 tail  33.75 grip 0.59
+   ok  Idle3                -> Dance                0.10s  frozen: soles  -1.23 scissors   1.87 tail  33.12 grip 0.00 | playing: soles  -1.23 scissors   1.87 tail  33.15 grip 0.00
+   ok  Idle3                -> Taunt                0.10s  frozen: soles  -0.51 scissors   1.71 tail  33.66 grip 0.00 | playing: soles  -0.50 scissors   1.78 tail  33.81 grip 0.00
+   ok  Idle3                -> Joke                 0.10s  frozen: soles  -0.96 scissors   1.89 tail  33.66 grip 0.00 | playing: soles  -0.96 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle3                -> Laugh                0.10s  frozen: soles  -0.51 scissors   1.90 tail  33.48 grip 0.00 | playing: soles  -0.50 scissors   1.88 tail  33.49 grip 0.00
+   ok  Idle4                -> Attack1              0.10s  frozen: soles  -1.17 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -1.17 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle4                -> Attack2              0.10s  frozen: soles  -1.20 scissors   1.90 tail  33.61 grip 0.00 | playing: soles  -1.20 scissors   1.88 tail  33.73 grip 0.00
+   ok  Idle4                -> Crit                 0.10s  frozen: soles  -1.53 scissors   1.90 tail  33.64 grip 0.00 | playing: soles  -1.53 scissors   1.88 tail  33.77 grip 0.00
+   ok  Idle4                -> Spell1               0.10s  frozen: soles  -0.74 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -0.75 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle4                -> Spell1_Leap          0.10s  frozen: soles  -0.62 scissors   1.78 tail  31.43 grip 0.72 | playing: soles  -0.62 scissors   1.84 tail  31.45 grip 0.72
+   ok  Idle4                -> Spell2               0.10s  frozen: soles  -1.57 scissors   1.89 tail  33.66 grip 0.00 | playing: soles  -1.58 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle4                -> Spell4               0.10s  frozen: soles  -0.79 scissors   1.90 tail  28.79 grip 0.00 | playing: soles  -0.79 scissors   1.88 tail  28.77 grip 0.00
+   ok  Idle4                -> Channel_Wndup        0.10s  frozen: soles  -0.51 scissors   1.90 tail  33.66 grip 0.59 | playing: soles  -0.50 scissors   1.88 tail  33.75 grip 0.59
+   ok  Idle4                -> Dance                0.10s  frozen: soles  -1.23 scissors   1.87 tail  33.12 grip 0.00 | playing: soles  -1.23 scissors   1.87 tail  33.15 grip 0.00
+   ok  Idle4                -> Taunt                0.10s  frozen: soles  -0.51 scissors   1.71 tail  33.66 grip 0.00 | playing: soles  -0.50 scissors   1.78 tail  33.81 grip 0.00
+   ok  Idle4                -> Joke                 0.10s  frozen: soles  -0.96 scissors   1.89 tail  33.66 grip 0.00 | playing: soles  -0.96 scissors   1.88 tail  33.81 grip 0.00
+   ok  Idle4                -> Laugh                0.10s  frozen: soles  -0.51 scissors   1.90 tail  33.48 grip 0.00 | playing: soles  -0.50 scissors   1.88 tail  33.49 grip 0.00
+   ok  0x86b44e3c           -> Idle1                0.10s  frozen: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00 | playing: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00
+   ok  0x86b44e3c           -> Idle2                0.10s  frozen: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00 | playing: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00
+   ok  0x86b44e3c           -> Idle3                0.10s  frozen: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00 | playing: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00
+   ok  0x86b44e3c           -> Idle4                0.10s  frozen: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00 | playing: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00
+   ok  Spell3_Medium_toRun  -> Idle1                0.10s  frozen: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00 | playing: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00
+   ok  Spell3_Medium_toRun  -> Idle2                0.10s  frozen: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00 | playing: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00
+   ok  Spell3_Medium_toRun  -> Idle3                0.10s  frozen: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00 | playing: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00
+   ok  Spell3_Medium_toRun  -> Idle4                0.10s  frozen: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00 | playing: soles  -0.74 scissors   1.52 tail  34.60 grip 0.00
+  PASS  these cross-fades keep the scissors and tail above the ground, the fist on the handle and the soles >= -2.0 (outgoing frozen) / -3.0 (outgoing playing)
+ (2) 19 pairs that leave the run loop mid-stride: scissors, tail and grip are gated, the soles are informational. Cross-fading a
+     stride into a standing pose turns the trailing leg towards vertical while its foot is still pitched for push-off, so the toes
+     pass a few units below the ground for a few hundredths of a second at some stride phases. The dip depends on the phase the
+     run is left at; the action and recall clips already open on the standing idle, and this build does not attempt to remove it:
+   dip Run_Normal           -> Spell3_Long          0.10s  frozen: soles  -4.48 scissors  22.37 tail  35.37 grip 0.00 | playing: soles  -4.49 scissors  22.38 tail  35.38 grip 0.00
+   dip Run_Normal           -> Spell3_Medium        0.10s  frozen: soles  -4.48 scissors  12.18 tail  37.43 grip 0.00 | playing: soles  -4.48 scissors  12.22 tail  37.44 grip 0.00
+   dip Run_Normal           -> Spell3               0.10s  frozen: soles  -4.34 scissors   7.59 tail  50.48 grip 0.00 | playing: soles  -4.34 scissors   7.68 tail  50.48 grip 0.00
+   dip Run_Normal           -> 0x9260a8e8           0.10s  frozen: soles  -4.64 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -4.73 scissors   1.90 tail  33.66 grip 0.00
+   dip Run_Homeguard        -> 0x9260a8e8           0.10s  frozen: soles  -4.64 scissors   1.90 tail  33.66 grip 0.00 | playing: soles  -4.73 scissors   1.90 tail  33.66 grip 0.00
+   dip Run_Normal           -> Attack1              0.10s  frozen: soles  -5.16 scissors  30.61 tail  36.11 grip 0.00 | playing: soles  -5.10 scissors  30.64 tail  36.11 grip 0.00
+   dip Run_Normal           -> Attack2              0.10s  frozen: soles  -4.35 scissors  37.18 tail  37.33 grip 0.00 | playing: soles  -4.45 scissors  37.50 tail  37.33 grip 0.00
+   dip Run_Normal           -> Crit                 0.10s  frozen: soles  -4.43 scissors   6.81 tail  42.77 grip 0.00 | playing: soles  -4.39 scissors   6.82 tail  42.77 grip 0.00
+   dip Run_Normal           -> Spell1               0.10s  frozen: soles  -4.80 scissors  17.68 tail  36.55 grip 0.00 | playing: soles  -4.91 scissors  17.75 tail  36.55 grip 0.00
+   dip Run_Normal           -> Spell1_Leap          0.10s  frozen: soles  -4.53 scissors  16.91 tail  46.55 grip 0.72 | playing: soles  -4.55 scissors  16.95 tail  46.55 grip 0.72
+   dip Run_Normal           -> Spell2               0.10s  frozen: soles  -5.08 scissors   2.87 tail  48.75 grip 0.00 | playing: soles  -5.08 scissors   2.90 tail  48.75 grip 0.00
+   dip Run_Normal           -> Spell4               0.10s  frozen: soles  -4.64 scissors  10.72 tail  34.18 grip 0.00 | playing: soles  -4.67 scissors  10.72 tail  34.20 grip 0.00
+   dip Run_Homeguard        -> Attack1              0.10s  frozen: soles  -5.16 scissors  32.08 tail  36.11 grip 0.00 | playing: soles  -5.10 scissors  32.16 tail  36.11 grip 0.00
+   dip Run_Homeguard        -> Attack2              0.10s  frozen: soles  -4.35 scissors  42.53 tail  37.33 grip 0.00 | playing: soles  -4.45 scissors  42.60 tail  37.33 grip 0.00
+   dip Run_Homeguard        -> Crit                 0.10s  frozen: soles  -4.43 scissors   5.40 tail  42.77 grip 0.00 | playing: soles  -4.39 scissors   5.41 tail  42.77 grip 0.00
+   dip Run_Homeguard        -> Spell1               0.10s  frozen: soles  -4.80 scissors  18.65 tail  36.55 grip 0.00 | playing: soles  -4.91 scissors  18.69 tail  36.55 grip 0.00
+   dip Run_Homeguard        -> Spell1_Leap          0.10s  frozen: soles  -4.53 scissors  17.13 tail  46.46 grip 0.72 | playing: soles  -4.55 scissors  17.14 tail  46.46 grip 0.72
+   dip Run_Homeguard        -> Spell2               0.10s  frozen: soles  -5.08 scissors   1.26 tail  48.68 grip 0.00 | playing: soles  -5.08 scissors   1.27 tail  48.68 grip 0.00
+   dip Run_Homeguard        -> Spell4               0.10s  frozen: soles  -4.64 scissors  10.72 tail  34.18 grip 0.00 | playing: soles  -4.67 scissors  10.72 tail  34.20 grip 0.00
+  PASS  leaving the run loop never puts the scissors or tail below the ground or opens the fist
+ (3) recall from the clips that end or loop in a crouch, in the air or lying down (Dance, Death, Spell3, Spell3_Long, Spell3_Medium): the base graph cross-fades
+     them into the recall like every other clip, which passed the scissors / feet through the ground (dance: scissors -15, soles -9).
+     They now cut to the recall (0 s), the way every clip cuts to the death clip. Entries with an explicit mTime of exactly 0: Dance, Death, Spell3, Spell3_Long, Spell3_Medium
+  PASS  those five clips cut to the recall instead of cross-fading through the ground; no cross-fade is left ungated except the run soles in (2)
+transition clips: 0x86b44e3c: 5 pairs (Spell3_Long>Idle1, Spell3_Long>Idle2, Spell3_Long>Idle3, Spell3_Long>Idle4, Spell3_Long>Run_Normal); Run_Homeguard_IN: 25 pairs; Spell3_Medium_toRun: 5 pairs (Spell3_Medium>Idle1, Spell3_Medium>Idle2, Spell3_Medium>Idle3, Spell3_Medium>Idle4, Spell3_Medium>Run_Normal)
+  PASS  all 35 transition-clip entries of the blend table name clips that exist
+  PASS  the long and the medium vault go through their landing clip both when she runs on and when she stops (Idle1-4)
+ (4) transitions the blend table does not list. Its explicit 0 s entries suggest that unlisted pairs get a default cross-fade of
+     unknown length, so each one is simulated at 0.1 s and at 0.2 s (soles: outgoing frozen / playing; 17 samples per blend).
+  (a) standing idle (left at every 2nd key) -> run, and any action start the table still leaves unlisted:
+   ok  Idle1                -> Run_Normal     0.1 s: soles  -0.77 /  -0.77 scissors   0.90 tail  33.66 | 0.2 s: soles  -0.83 /  -0.84 scissors   0.90 tail  33.66
+  (b) the natural end of each one-shot clip -> standing idle:
+   ok  0x9260a8e8           -> Idle1          0.1 s: soles  -0.51 /  -0.51 scissors   1.52 tail  33.66 | 0.2 s: soles  -0.51 /  -0.51 scissors   1.70 tail  33.66
+   ok  Attack1              -> Idle1          0.1 s: soles  -0.90 /  -0.59 scissors   1.52 tail  31.37 | 0.2 s: soles  -0.90 /  -0.55 scissors   1.77 tail  33.11
+   ok  Attack2              -> Idle1          0.1 s: soles  -0.50 /  -0.50 scissors   1.52 tail  30.06 | 0.2 s: soles  -0.50 /  -0.50 scissors   1.59 tail  32.33
+   ok  Crit                 -> Idle1          0.1 s: soles  -0.50 /  -0.50 scissors   1.52 tail  30.04 | 0.2 s: soles  -0.50 /  -0.50 scissors   1.70 tail  32.33
+   ok  Idle2                -> Idle1          0.1 s: soles  -0.51 /  -0.50 scissors   1.52 tail  33.66 | 0.2 s: soles  -0.51 /  -0.50 scissors   1.62 tail  33.66
+   ok  Idle3                -> Idle1          0.1 s: soles  -0.51 /  -0.50 scissors   1.52 tail  33.66 | 0.2 s: soles  -0.51 /  -0.50 scissors   1.62 tail  33.66
+   ok  Idle4                -> Idle1          0.1 s: soles  -0.51 /  -0.50 scissors   1.52 tail  33.66 | 0.2 s: soles  -0.51 /  -0.50 scissors   1.62 tail  33.66
+   ok  Joke                 -> Idle1          0.1 s: soles  -0.50 /  -0.81 scissors   1.52 tail  34.60 | 0.2 s: soles  -0.50 /  -1.84 scissors   1.56 tail  35.34
+   ok  Laugh                -> Idle1          0.1 s: soles  -0.50 /  -0.50 scissors   1.52 tail  33.26 | 0.2 s: soles  -0.50 /  -0.50 scissors   1.71 tail  33.26
+   ok  Run_Homeguard_IN     -> Idle1          0.1 s: soles  -0.67 /  -0.67 scissors   1.52 tail  34.60 | 0.2 s: soles  -0.65 /  -0.65 scissors   1.93 tail  35.51
+   ok  Spell1               -> Idle1          0.1 s: soles  -0.90 /  -0.57 scissors   1.52 tail  31.18 | 0.2 s: soles  -0.90 /  -0.53 scissors   1.93 tail  32.89
+   ok  Spell1_Leap          -> Idle1          0.1 s: soles  -0.50 /  -1.02 scissors   1.52 tail  34.60 | 0.2 s: soles  -0.50 /  -2.20 scissors   1.65 tail  35.16
+   ok  Spell2               -> Idle1          0.1 s: soles  -0.50 /  -0.83 scissors   1.52 tail  34.60 | 0.2 s: soles  -0.50 /  -1.64 scissors   1.58 tail  35.30
+   ok  Spell3               -> Idle1          0.1 s: soles  -0.50 /  -0.63 scissors   1.40 tail  34.60 | 0.2 s: soles  -0.50 /  -0.57 scissors   1.40 tail  35.51
+   ok  Spell4               -> Idle1          0.1 s: soles  -0.50 /  -0.50 scissors   1.52 tail  32.89 | 0.2 s: soles  -0.50 /  -0.77 scissors   1.93 tail  32.95
+   ok  Taunt                -> Idle1          0.1 s: soles  -0.50 /  -0.89 scissors   1.02 tail  34.60 | 0.2 s: soles  -0.50 /  -1.56 scissors   1.02 tail  35.51
+  PASS  idle -> run and every one-shot clip that plays out -> idle keep the scissors and tail above the ground and the soles >= -2.0 / -3.0, at 0.1 s and at 0.2 s
+  (c) informational, not gated: leaving the run loop (at every key) for the idle, an emote or the channel wind-up, and the exact
+      end of a one-shot clip -> run. Leaving the run has the mid-stride toe dip of (2). The emotes and the channel wind-up are
+      started standing; out of a run the channel wind-up swings the scissors about 2 units through the ground for an instant.
+      A one-shot clip that is still easing onto the idle stance while the run fades in can dip a sole by 2-5 units:
+   dip Run_Normal           -> Dance          0.1 s: soles  -4.22 /  -4.28 scissors   4.71 tail  41.78 | 0.2 s: soles  -7.99 /  -8.04 scissors  -8.51 tail  55.43
+   dip Run_Normal           -> Taunt          0.1 s: soles  -4.44 /  -4.53 scissors   3.89 tail  37.34 | 0.2 s: soles  -4.52 /  -4.52 scissors   5.56 tail  47.72
+   dip Run_Normal           -> Joke           0.1 s: soles  -4.22 /  -4.26 scissors  12.47 tail  43.87 | 0.2 s: soles  -7.53 /  -7.41 scissors  16.79 tail  57.03
+   dip Run_Normal           -> Laugh          0.1 s: soles  -4.56 /  -4.65 scissors   3.20 tail  34.45 | 0.2 s: soles  -4.51 /  -4.56 scissors   5.92 tail  41.54
+   dip Run_Normal           -> Channel_Wndup  0.1 s: soles  -4.64 /  -4.73 scissors  -2.22 tail  34.72 | 0.2 s: soles  -4.64 /  -4.71 scissors  -2.17 tail  35.16
+   dip Run_Normal           -> Idle1          0.1 s: soles  -4.60 /  -4.69 scissors   1.52 tail  34.60 | 0.2 s: soles  -4.56 /  -4.65 scissors   1.93 tail  35.51
+   ok  0x9260a8e8           -> Run_Normal     0.1 s: soles  -0.70 /  -0.70 scissors   1.90 tail  33.66 | 0.2 s: soles  -0.78 /  -0.78 scissors   1.90 tail  33.66
+   ok  Attack1              -> Run_Normal     0.1 s: soles  -1.04 /  -0.58 scissors  12.66 tail  32.12 | 0.2 s: soles  -1.10 /  -0.34 scissors   1.77 tail  38.61
+   ok  Attack2              -> Run_Normal     0.1 s: soles  -0.12 /  -0.66 scissors   1.67 tail  31.29 | 0.2 s: soles  -0.20 /  -0.77 scissors   1.67 tail  32.56
+   ok  Crit                 -> Run_Normal     0.1 s: soles  -0.04 /  -0.66 scissors   1.89 tail  31.30 | 0.2 s: soles  -0.11 /  -0.77 scissors   1.89 tail  32.96
+   ok  Idle2                -> Run_Normal     0.1 s: soles  -0.70 /  -0.76 scissors   1.88 tail  33.66 | 0.2 s: soles  -0.78 /  -0.84 scissors   1.62 tail  33.66
+   ok  Idle3                -> Run_Normal     0.1 s: soles  -0.70 /  -0.76 scissors   1.88 tail  33.66 | 0.2 s: soles  -0.78 /  -0.84 scissors   1.62 tail  33.66
+   ok  Idle4                -> Run_Normal     0.1 s: soles  -0.70 /  -0.76 scissors   1.88 tail  33.66 | 0.2 s: soles  -0.78 /  -0.84 scissors   1.62 tail  33.66
+   dip Joke                 -> Run_Normal     0.1 s: soles   0.33 /  -1.97 scissors   1.60 tail  36.30 | 0.2 s: soles   0.25 /  -3.07 scissors   1.60 tail  36.30
+   ok  Laugh                -> Run_Normal     0.1 s: soles  -0.60 /  -0.68 scissors   1.93 tail  33.26 | 0.2 s: soles  -0.67 /  -0.48 scissors   2.02 tail  33.26
+   ok  Run_Homeguard_IN     -> Run_Normal     0.1 s: soles   3.51 /   3.80 scissors  69.84 tail  73.68 | 0.2 s: soles   3.15 /   3.27 scissors  67.22 tail  73.69
+   ok  Spell1               -> Run_Normal     0.1 s: soles  -1.04 /  -0.55 scissors  12.44 tail  32.25 | 0.2 s: soles  -1.10 /  -0.18 scissors   1.05 tail  37.10
+   ok  Spell1_Leap          -> Run_Normal     0.1 s: soles  -0.30 /  -2.27 scissors   1.77 tail  35.79 | 0.2 s: soles  -0.37 /  -1.14 scissors   1.77 tail  35.79
+   dip Spell2               -> Run_Normal     0.1 s: soles   0.35 /  -2.53 scissors   1.64 tail  36.38 | 0.2 s: soles   0.28 /  -5.19 scissors   1.64 tail  36.38
+   ok  Spell3               -> Run_Normal     0.1 s: soles  -0.04 /   3.22 scissors   1.40 tail  70.06 | 0.2 s: soles  -0.12 /   6.56 scissors   1.40 tail  70.06
+   ok  Spell4               -> Run_Normal     0.1 s: soles  -0.51 /  -0.48 scissors   2.80 tail  32.95 | 0.2 s: soles  -0.58 /  -1.53 scissors  10.40 tail  32.95
+   dip Taunt                -> Run_Normal     0.1 s: soles  -0.15 /  -2.47 scissors   1.02 tail  39.95 | 0.2 s: soles  -0.22 /  -3.49 scissors   1.02 tail  39.95
+      Not simulated: interrupting a clip in mid-motion (attack cancels, crowd control). That blends from an arbitrary pose, on any skin.
+  PASS  sequencer / condition clips reference existing clips []
+  PASS  standard clip names present (Idle1, Run, Attack1/2, Crit, Spell1-4, Death, Recall, emotes, Channel)
+  PASS  all 63 resource-resolver links resolve to entries in this bin []
+  PASS  particle events use effect keys known to the resolver []
+
+RESULT: ALL CHECKS PASSED

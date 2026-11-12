@@ -1,0 +1,5 @@
+build23 run elbow bend 50.34840894835198 112.55083028619198 tail relative tip span XYZ [45.72281924 13.4290544   9.51162098] max vertical second difference 3.7162408284836346
+build23 homeguard elbow bend 6.912482848461876 23.38974090721381 tail relative tip span XYZ [51.423917   14.63127193  7.84011422] max vertical second difference 9.631736835833408
+build24 run elbow bend 50.34840894835198 112.55083028619198 tail relative tip span XYZ [49.25871507  0.15711006  7.15616797] max vertical second difference 0.011196993023361301
+build24 homeguard elbow bend 50.348408948352 112.55083028619195 tail relative tip span XYZ [46.30538679  0.13808843  6.57424876] max vertical second difference 0.0096052692538251
+PASS: 17 recall particle events; 12 systems; 83 verified raw dependencies; valid bones/resolver; BIN roundtrip

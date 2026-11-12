@@ -1,0 +1,503 @@
+{
+  "riot_manifest": "https://lol.secure.dyn.riotcdn.net/channels/public/releases/6EDAD6B3C9806CB9.manifest",
+  "files": [
+    {
+      "target": "assets/ellen_talon_recall/shared/particles/bigglow02_2.tex",
+      "original": "assets/shared/particles/bigglow02_2.tex",
+      "size": 2756,
+      "sha256": "6a347f4c46ff7541c05bf2d175df0e6874ff4477fb0fd7f411bf9c20c0ab819a"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_einstein_04_mult.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_einstein_04_mult.tex",
+      "size": 21884,
+      "sha256": "6f68f480a366189e42f37b7910a7c42cc6dcfe2c7473a26a2f06395a529af1a1"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/skin30_animeshapes02.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/skin30_animeshapes02.tex",
+      "size": 87420,
+      "sha256": "1d01332b2c378d3fef8803ba759b3a751a5a092bb0048a1fb4412214c1e8f41b"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/aatrox_skin30_mult_windblast_2.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/aatrox_skin30_mult_windblast_2.tex",
+      "size": 21884,
+      "sha256": "1c5000077f3a60731e6b479ad6e434c2b1a2a432da36b93fac3e7d48a8458c52"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_sparkles01.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_sparkles01.tex",
+      "size": 87420,
+      "sha256": "38d310b96f15b2064f65176830063107822a445857fcfc56afb9885658836a95"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_windwall.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_windwall.scb",
+      "size": 26752,
+      "sha256": "6f4f310aaa0dc49ae88fa8a3289e88b25db55d2d899bb6b5547bb93d8cb0fde2"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_dash_dirttrail.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_dash_dirttrail.tex",
+      "size": 43740,
+      "sha256": "d505b83eddb720f991cfe5381ee2193b6f3c5a69f893c04674c572328992f086"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_distortionmask.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_distortionmask.tex",
+      "size": 87420,
+      "sha256": "68ca009c83d0e0727daf9c700f68b902f4bdf554fcd9161f25c1531991b594ca"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_egor_edge.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_egor_edge.scb",
+      "size": 9152,
+      "sha256": "e57f685c37bfe8b16cc5f50f324b661196875dc00812081de811cbdb22af3338"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_demon_trail_rotate.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_demon_trail_rotate.tex",
+      "size": 43740,
+      "sha256": "55c6c619e0651aa54317d042c1dce7fc3e6bbbd5d1ec482e40b44df570e2e356"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_ego_emote_mis_dirt_sides_v03.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_ego_emote_mis_dirt_sides_v03.tex",
+      "size": 21884,
+      "sha256": "3326310686c338d280a7253735a6b1766176567b613f6199179f8502f0ea4459"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_egobaskin05_emote_einstein_01_mult.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_egobaskin05_emote_einstein_01_mult.tex",
+      "size": 21884,
+      "sha256": "854ec71cfb564c813feb494d3bbe03fdbd446e07a5b1fad83d7f095b02007eef"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_ground_decal_03.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_ground_decal_03.tex",
+      "size": 21884,
+      "sha256": "dadb51690c9fea9188b8c199e63b1d9f449e58a8d3f0f44d30cb85ffa855324e"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_ne_core_mask.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_ne_core_mask.tex",
+      "size": 5500,
+      "sha256": "4e8de7174b02c7cb34230538386cd064d9ab1726d562e5cbfdbb0a467e4fbc38"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_ba_noise02.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_ba_noise02.tex",
+      "size": 10948,
+      "sha256": "e7736869d952921dbc8b1c7fc2cdbf4b0bb36d2243f9cd783ca78f3bba937911"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_mask_09l.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_mask_09l.tex",
+      "size": 21884,
+      "sha256": "9c546220fb3405274cdb101fdb85644128047f0800fb54d3048190de5c7d872f"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_fire05.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_fire05.tex",
+      "size": 43740,
+      "sha256": "b327a59d3f0e060c39f5cbbb1bc9a5a4fcb4ba7498ca9c6cd973483e9dd3b513"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_fire04.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_fire04.tex",
+      "size": 43740,
+      "sha256": "c996c3bac873c29ed4b165302f366eff4dcc34394bc23dbdd672b97b544b2dc2"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_firealpha01.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_firealpha01.tex",
+      "size": 21884,
+      "sha256": "5de53c51dfb31114056871dffb1f1028aac22fdea2bedeaac7472ebfb50b7340"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_fire03.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_fire03.tex",
+      "size": 43740,
+      "sha256": "9abd84939f3b6c6b8db7d827c4fd38f535a47eaa0ca57075a74500779a4d4fc4"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_mask_01l.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_mask_01l.tex",
+      "size": 2756,
+      "sha256": "6247913260a4d639b7e438a84cbe22379392704a74609288b82fc1ae4c2150cc"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_r_buffer_ground_indicator.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_r_buffer_ground_indicator.tex",
+      "size": 43740,
+      "sha256": "70fc43bd6be7464c8af431953c43ee6ee4315be45ea5275d9f2ba980b00c3fe2"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_vertical_glow.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_vertical_glow.tex",
+      "size": 5500,
+      "sha256": "fc15ae1362854ed0a9bd1b376ff5738bd9e7ce405a33b6e5e4bab9d8a1309e43"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_z_noise_06.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_z_noise_06.tex",
+      "size": 21884,
+      "sha256": "6b14882bd9c3b103db8188cfdd1f04061c88abdb976d755faa601aba2359f84d"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_egoweaponidle_mesh_02.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_egoweaponidle_mesh_02.scb",
+      "size": 4472,
+      "sha256": "3dc8b8fbda30c2d1b00fd8ed2ab074f4ca011a0341e5d9adfcd22351bbba3e4f"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_egoweapon_emote_corestab_local_02.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_egoweapon_emote_corestab_local_02.tex",
+      "size": 43740,
+      "sha256": "de850714d050508103c9492394d86c600866817cec2f9463641487bb77cf8463"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_egomask_gradient_02.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_egomask_gradient_02.tex",
+      "size": 21884,
+      "sha256": "f58f15d641539240dcfcb2198653d9c89d9ee4868e85a81094c8acb6507c690e"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/hit_bits.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/hit_bits.tex",
+      "size": 21884,
+      "sha256": "45bf6e039a752783b52031e71a7d7aea50586c6c08f79782cc9d86a804defc20"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_egoe_mis_child_trail_02.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_egoe_mis_child_trail_02.scb",
+      "size": 25152,
+      "sha256": "f5ec8365dc0803908df374722f9d51148cf5a38d2a08f882590acb4a4f386388"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_recall_godeye_1_decal.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_recall_godeye_1_decal.tex",
+      "size": 21884,
+      "sha256": "a770da13ec292f5a7447d2161e5cae1036b80391744143cb8ce50fa34de2739a"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_egoe_trail_fire_erosion_02.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_egoe_trail_fire_erosion_02.tex",
+      "size": 21884,
+      "sha256": "a588bada0d4de18f6a7a5cc6cc90b65919a9c35f415074ceb4c096ca3f4caf6a"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_aura_self.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_aura_self.tex",
+      "size": 5500,
+      "sha256": "9e07197d851021b866200398b955df781c4d52c7dd2178071b9d1cdfbb8aaf21"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_ball32_02.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_ball32_02.tex",
+      "size": 21884,
+      "sha256": "2fa6cddd8d8c090efca12592eb8ede59a093bac613424bf05f78b0dfe784a6af"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_trail07.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_trail07.tex",
+      "size": 21884,
+      "sha256": "cb32454a2f102eb39e7d5a6b8f7d50c2646d3ed8ab574e83b5306f9462aec931"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_sigil_107.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_sigil_107.tex",
+      "size": 43740,
+      "sha256": "8b51cf337e0f4a247f3d4f35513b73ea3b20762921c3c4a0b67c44a1c87b2650"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_idle_weapon_pistol_vfxmesh_01.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_idle_weapon_pistol_vfxmesh_01.scb",
+      "size": 47792,
+      "sha256": "0fdc428bdb11515abe1111f6a2475b30312681995ba1e0ea9bdfaf50b2842469"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_trail_fire_erosion_02.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_trail_fire_erosion_02.tex",
+      "size": 21884,
+      "sha256": "c49f64a42529d6cdd390e369359c5cdb0c4b19be04398aed6f551bd853a7a499"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_e_air_swoosh_grad02.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_e_air_swoosh_grad02.tex",
+      "size": 21884,
+      "sha256": "285482c08d251770e2f61bb2ea1a5428b30d52cbd3c2d50171e42a715b1d8a6f"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_idle_weapon_pistol_vfxmesh_02.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_idle_weapon_pistol_vfxmesh_02.scb",
+      "size": 28384,
+      "sha256": "959788f439ac55784be872c2fe67abffad493d32fa880df37206ee1394625dec"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_e_air_swoosh_grad01.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_e_air_swoosh_grad01.tex",
+      "size": 21884,
+      "sha256": "6989c666cc40d9f610c6ab8800d3cca98373b8e74926e0c8b6d7313d390fe553"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_w_embers.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_w_embers.tex",
+      "size": 21884,
+      "sha256": "89e03adc5c112e270d091c0c55f5bf03c2dabecd0b5a285f26d8275d280ed6d2"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_alpha_backdrop.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_alpha_backdrop.tex",
+      "size": 21884,
+      "sha256": "b9057eb4a3a0b6481540ae35ebeed585a43eca3a0f04b97d847e0d0d412c2d36"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_w_throw_sparks.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_w_throw_sparks.tex",
+      "size": 43740,
+      "sha256": "79789bba1c1cdec058303f1cca4afb08bc2139c248d6c49d18de3ae7312695fc"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/viego_skin30_egoe_distort_01.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/viego_skin30_egoe_distort_01.tex",
+      "size": 1404,
+      "sha256": "859af51818a7f64c7ab6ccf3988c5b744fe1a802086496123805173b1748bc7b"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/olaf_skin16_smoke_vert.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/olaf_skin16_smoke_vert.tex",
+      "size": 21884,
+      "sha256": "8d8127f6cad9bac57b2fdde935ec1d4a1d1e09591ff46cdc2e0cbba7fd2193d2"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/aura_self.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/aura_self.tex",
+      "size": 21884,
+      "sha256": "41241eafa700d7aa8a280bc7d943c090005324d146d33777a5b8b4bda3ab977b"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_z_spritesheet_02.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_z_spritesheet_02.tex",
+      "size": 87420,
+      "sha256": "a8dc4a704af8dfea62fd03e9903a0fae36e069f09b16f8d61d2f71099c94b579"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_z_spritesheet_01.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_z_spritesheet_01.tex",
+      "size": 87420,
+      "sha256": "773e0d690b88629aff69356557ba18321553304c5f920dbb76c4acc2b89b411a"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_z_spritesheet_03.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_z_spritesheet_03.tex",
+      "size": 87420,
+      "sha256": "44bcba1623bf5199626669255744004ca40b34cf1eabcf63c34df229acc0901f"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_z_spritesheet_04.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_z_spritesheet_04.tex",
+      "size": 87420,
+      "sha256": "d31b9cf4243920cf4696986bf5b79ec9072fafc2eda998e66220ab0109af45cd"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_q_smoke_erode.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_q_smoke_erode.tex",
+      "size": 21884,
+      "sha256": "4265e8af420763f690d805d0b9ebc78ea032194d0e48c85f1b47118cb3125f18"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_flame_trail.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_flame_trail.tex",
+      "size": 43740,
+      "sha256": "5770d1015a220ede532efe40f343d3cdd9ee9d84c70a16313837d239c31b9c63"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_p_screen_flames_soft.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_p_screen_flames_soft.tex",
+      "size": 21884,
+      "sha256": "9b7791f8b69943a25f30012b4076745d059e44410cb06c2c90fc2b7987a23b6e"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_ba_smoke_trail.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_ba_smoke_trail.tex",
+      "size": 43740,
+      "sha256": "93c68f82ab8c7c67a84184bb6089a043f5c843f558efc71e489913d1666efe71"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_mistnoise_alphaerosion.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_mistnoise_alphaerosion.tex",
+      "size": 5500,
+      "sha256": "d502c1c112180e1886c304bfb0bb4330bbe4159a688799e756f82e830696f548"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/drx_fires_erode.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/drx_fires_erode.tex",
+      "size": 21884,
+      "sha256": "93b8efb15fb240fa04306d658aa2e8a3b7d54722bb9b6c4eae08cee6300ed5f7"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_spritesheet_03.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_spritesheet_03.tex",
+      "size": 87420,
+      "sha256": "c2b9d297deef637c040fa617db46e5bb5bc5e1731237007bf9106f63923663ce"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/common_jayce_aura.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/common_jayce_aura.tex",
+      "size": 43716,
+      "sha256": "45b1c93bb7553ca6746d5e1a1a7bede0462da95a8491820cff0aea6b4d88e2e0"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_ring_glow.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_ring_glow.tex",
+      "size": 87420,
+      "sha256": "abd2b36fc88f93a882b84559ece59a6a5d733985d06d9c369a28c9d0dd87d7d2"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_style_backdrop.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_style_backdrop.scb",
+      "size": 24128,
+      "sha256": "80fb824130267985b9d396d11520b46413748a621ece5843ba2f59985e7fe5d8"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/3026_itemscolor-hold.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/3026_itemscolor-hold.tex",
+      "size": 68,
+      "sha256": "bc06557b44402fee1498430bd4008df9598085f44b29fea2f02218473674b2f8"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_aa_air_swoosh.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_aa_air_swoosh.tex",
+      "size": 21884,
+      "sha256": "a7ea9d4cd68a5d77f71cdd91d1053f134099aea40f57d1693229723629a9347c"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_e_impact_flare.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_e_impact_flare.tex",
+      "size": 21884,
+      "sha256": "31efe95e6c7bc59fc6282a040c48934bc1cb62c7a37a4353a2b23407e52b8325"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/lucian_skin09_bigstar.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/lucian_skin09_bigstar.tex",
+      "size": 43716,
+      "sha256": "fadf7835304524b02fec6d409ba50a06513e180f9016396f70c5663a766866a1"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_sphere_01.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_sphere_01.scb",
+      "size": 80776,
+      "sha256": "5c89ba0ae0e4168a82556ad08669bce1068e4143481bc1c826863ecbbdf5f41e"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_morgw_meshmult.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_morgw_meshmult.tex",
+      "size": 21884,
+      "sha256": "eab88f073dea2954c599bcb55c968d800e414c44a5e09ceb973e68f509d6bd1b"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_air_swoosh.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_air_swoosh.tex",
+      "size": 21884,
+      "sha256": "b96cf3aa883b9859b3294d9e1c6e3f372a3a86ed35b7a3e3c6fcfef3584af34e"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_recall_godeye_1_trail_02.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_recall_godeye_1_trail_02.scb",
+      "size": 25152,
+      "sha256": "f5ec8365dc0803908df374722f9d51148cf5a38d2a08f882590acb4a4f386388"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_common_color-bellcurve.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_common_color-bellcurve.tex",
+      "size": 5500,
+      "sha256": "15aa99c5555d17997d5498b987e586f65e6d12da86178571e43eaa98cd2f428d"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_animeburstmesh02.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_animeburstmesh02.scb",
+      "size": 62008,
+      "sha256": "73acfd5b7c728a34ddadde5a90354ba57229f2db815734a89e05b4662471530e"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/distort-pinch.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/distort-pinch.tex",
+      "size": 87420,
+      "sha256": "090cbc61c81ba392a3abe357998e7a5f39ae237848260987fa0ac7dd6668cc4a"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_wave01_01.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_wave01_01.scb",
+      "size": 531404,
+      "sha256": "c193e83ae1f1ad42bd48daebc5d80576a43455e7ad273b6c6e06d3a96d7bf322"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_egor_mask_18l.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_egor_mask_18l.tex",
+      "size": 21884,
+      "sha256": "ff3730e707f81e704ddd217a6ac5f3efac0c83ab040c83a5ffc37f4f45f2f603"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_glow08_01.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_glow08_01.tex",
+      "size": 87420,
+      "sha256": "0e413dd67749058523e0aa3a1b2c3f5fca2ea3e13b3b0328207c0593a453a949"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_glow01.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_glow01.tex",
+      "size": 21884,
+      "sha256": "b8992de9649239c6ec46db6454c4d5c2efd495508c7c4106cd42094552088852"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_wave07.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_wave07.scb",
+      "size": 110332,
+      "sha256": "5a6b64ca06cdd63311f84c7bf053d92f5a5f2ea8a14845cdae54805f4474a817"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_tx_weapon_010.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_tx_weapon_010.tex",
+      "size": 43740,
+      "sha256": "ae6f90712cd6c5dedde8043e2f13f225e3e9223e3a38cbfd073d280701bc7e4a"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_tx_weapon_09.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_tx_weapon_09.tex",
+      "size": 43740,
+      "sha256": "ba9e0f236c7b7c88556522507214c2894cea91925e18b01cb234f3570c707102"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_wave05.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_wave05.scb",
+      "size": 55292,
+      "sha256": "16ffba6580728119fd90a05fc206a855a27fce6beba273400030ee1ea8638fa3"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_3161glow.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_3161glow.tex",
+      "size": 21884,
+      "sha256": "270f9724771bcf2ecec770255d73b635f954283c4bc678ccc0954eacc7b00c39"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_wave018.scb",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_wave018.scb",
+      "size": 9600,
+      "sha256": "8f220e0ea791ae67c4e6d411c3132d05c9dcdcd18bc1c68e653df74baf78a964"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_emote_wall_erosion.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_emote_wall_erosion.tex",
+      "size": 21884,
+      "sha256": "722628760137c2c1798b12cfcc0c2f4247f2f964d5809532ad8b6642aeaf04ef"
+    },
+    {
+      "target": "assets/ellen_talon_recall/characters/samira/skins/skin30/particles/samira_skin30_tx_weapon_011.tex",
+      "original": "assets/characters/samira/skins/skin30/particles/samira_skin30_tx_weapon_011.tex",
+      "size": 43740,
+      "sha256": "790acddabd0698237d9e874e75a142a488a6d32259bd3070f6352cbe6b3a123b"
+    }
+  ]
+}

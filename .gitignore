@@ -1,0 +1,12 @@
+# Original downloads, earlier builds and local review work stay on this machine.
+/*.fantome
+/*.zip
+/*.glb
+/V2_*_Review/
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example

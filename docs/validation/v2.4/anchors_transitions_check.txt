@@ -1,0 +1,25 @@
+body/scissors scales 0.7439868273477015 0.6145331319825477
+independently reconstructed perch shift [-10.7799827  -12.24518441   0.44313065]
+CSTM_Buffbone_GodsEye1 all-key max position/orientation matrix error 8.46033059867263e-06 2.220446049250313e-16
+CSTM_Buffbone_GodsEye2 all-key max position/orientation matrix error 1.4388885616321951e-05 2.220446049250313e-16
+CSTM_Buffbone_GodsEye3 all-key max position/orientation matrix error 8.133580133776887e-06 2.220446049250313e-16
+Pistol all-key max position/orientation matrix error 1.3025691559758054e-05 7.828480344529432e-08
+Revolver all-key max position/orientation matrix error 1.2924292486018895e-05 8.139692864173043e-08
+Pistol_Muzzle all-key max position/orientation matrix error 1.4523696969307347e-05 7.547569189081393e-08
+Revolver_Muzzle all-key max position/orientation matrix error 1.332603854230442e-05 7.178340457247509e-08
+blade-tip anchor max distance to blade vertex 1.7993246152807538e-06
+mesh seam talon_skin12_run talon_skin12_homeguard_in 0.0
+mesh seam talon_skin12_homeguard_in talon_skin12_homeguard 0.0
+mesh seam talon_spell3_long talon_skin12_spell3_longtorun 0.0
+mesh seam talon_spell3_medium talon_skin12_spell3_medium_torun 0.0
+mesh seam talon_skin12_spell3_longtorun talon_skin12_run 0.0
+mesh seam talon_skin12_spell3_medium_torun talon_skin12_run 0.0
+mesh seam talon_recall talon_skin12_idle1 0.0
+mesh seam talon_skin12_idle1 talon_skin12_idle1 0.0
+mesh seam talon_skin12_run talon_skin12_run 0.0
+mesh seam talon_skin12_homeguard talon_skin12_homeguard 0.0
+quarter-key clearance talon_skin12_idle1 tail/blade nearest vertices 26.159450468439477 tail ground 33.66073886762363
+quarter-key clearance talon_skin12_run tail/blade nearest vertices 19.18234425168515 tail ground 70.68940107256252
+quarter-key clearance talon_skin12_homeguard tail/blade nearest vertices 22.680152311209167 tail ground 70.60508579003259
+quarter-key clearance talon_skin12_homeguard_in tail/blade nearest vertices 19.446841489499658 tail ground 70.65175946376678
+PASS original WAD byte equality 83 dependencies; full SCB parsing 14 meshes; anchors and motion seams. No client/VFX renderer used.
